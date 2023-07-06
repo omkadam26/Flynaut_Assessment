@@ -1,0 +1,39 @@
+
+Question3:
+
+let obj1 = { "greeting": "hello" };
+let obj2 = obj1;
+obj1["greeting"] = "Bye";
+console.log(obj1);
+console.log(obj2);
+
+
+Output:
+
+{ greeting: 'Bye' }
+{ greeting: 'Bye' }
+
+Question4:
+
+		 console.log("7" > 7)
+		 console.log("2">"21")
+		 console.log("KL">"S")
+
+Output :
+
+		false
+		true
+		true
+
+
+Question5:
+
+	function average(a, b)
+	{
+		return a + b / 2;
+	}
+	console.log(average(2, 1));
+
+output:
+
+	1.5
